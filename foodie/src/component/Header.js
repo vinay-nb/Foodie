@@ -19,27 +19,27 @@ const Header = () => {
       </div>
       <div className="flex ml-60 justify-end">
         <ul className="flex items-center justify-end">
-          <li className="mr-9 px-6">
+          <li className="mr-9 px-6 hover:text-orange-600 cursor-pointer">
             <span>
               <FontAwesomeIcon icon={faMagnifyingGlass} className="px-2" />
               Search
             </span>
           </li>
-          <li className="mr-9 px-6">
+          <li className="mr-9 px-6 hover:text-orange-600 cursor-pointer">
             <span>
               <FontAwesomeIcon icon={faBolt} className="px-2" /> Offers
             </span>
           </li>
-          <li className="mr-9 px-6">
+          <li className="mr-9 px-6 hover:text-orange-600 cursor-pointer">
             <FontAwesomeIcon icon={faInfo} className="px-2" />
             <span>Help</span>
           </li>
-          <li className="mr-9 px-6">
+          <li className="mr-9 px-6 hover:text-orange-600 cursor-pointer">
             <span>
               <FontAwesomeIcon icon={faUser} className="px-2" /> Username
             </span>
           </li>
-          <li className="mr-9 px-6">
+          <li className="mr-9 px-6 hover:text-orange-600 cursor-pointer">
             <span>
               <FontAwesomeIcon icon={faCartShopping} className="px-2" /> Cart
             </span>
