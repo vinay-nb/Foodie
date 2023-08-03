@@ -17,8 +17,8 @@ const Offercards = () => {
             </span>
           </div>
         </div>
-        <div className=" overflow-hidden w-2/3">
-          <div className="inline-flex my-5 flex-row">
+        <div>
+          <div className="inline-flex my-5 flex-row overflow-scroll w-[1080px] no-scrollbar">
             <div className="pr-6">
               <img
                 className="w-[425px] h-[252px] max-w-none"
@@ -47,7 +47,6 @@ const Offercards = () => {
                 alt="Flat deals"
               />
             </div>
-            
           </div>
         </div>
       </div>
